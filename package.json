@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build ."
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0",
@@ -17,7 +17,9 @@
     "@vuepress/plugin-nprogress": "1.0.0",
     "@vuepress/plugin-pwa": "1.0.0",
     "vuepress": "^1.5.0",
+    "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-crisp": "^1.0.0",
+    "vuepress-plugin-demo-container-v2": "^2.3.3",
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-seo": "^0.1.2",
@@ -27,6 +29,8 @@
     "vuepress-theme-modern-blog": "^2.12.1"
   },
   "dependencies": {
-    "postscribe": "^2.0.8"
+    "postscribe": "^2.0.8",
+    "vue-tabs-component": "^1.5.0",
+    "vuepress-plugin-tabs": "^0.3.0"
   }
 }

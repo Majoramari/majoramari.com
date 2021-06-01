@@ -8342,6 +8342,11 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
+vue-tabs-component@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/vue-tabs-component/-/vue-tabs-component-1.5.0.tgz#9b2f02adbc9bb58395729d68c4906a795a20d728"
+  integrity sha512-ld4p+hv49Fimw+zv/7GQqMhbjAHjpbWF3UiJtmMaSnvLKbsB1ysfs9dQH0SZ8NvdYpqqKay/VLIqR9yXgse1Sg==
+
 vue-template-compiler@^2.6.10:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.12.tgz#947ed7196744c8a5285ebe1233fe960437fcc57e"
@@ -8378,7 +8383,7 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-container@^2.0.2:
+vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
   integrity sha512-TQrDX/v+WHOihj3jpilVnjXu9RcTm6m8tzljNJwYhxnJUW0WWQ0hFLcDTqTBwgKIFdEiSxVOmYE+bJX/sq46MA==
@@ -8390,6 +8395,11 @@ vuepress-plugin-crisp@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-crisp/-/vuepress-plugin-crisp-1.0.0.tgz#610aeec18842dcdc6ce0b364972e54ce6f7e1790"
   integrity sha512-uak3dKvE4g9buqeHZA/VTU6OoK+8SFLWiSQBaidwfWD4AbOlnT23KigZ6vLbrrzCD+igiK6QuZyN5E7iaetFjA==
+
+vuepress-plugin-demo-container-v2@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-demo-container-v2/-/vuepress-plugin-demo-container-v2-2.3.3.tgz#c73f222820ba33670357a8ab8192e5626b6580a2"
+  integrity sha512-IQQTThOjDYofiu9B9NrmwMd1lrR+WQANa13zsqX+VQTX7RyBeEraCAkZ41trIn3JhxNtrnUOw7ef1Ip1lUisNQ==
 
 vuepress-plugin-disqus@^0.1.1:
   version "0.1.1"
@@ -8477,6 +8487,11 @@ vuepress-plugin-social-share@^0.0.6:
   integrity sha512-Iu2ighFOUGd3bx3J3FXL7Nc/XXX6clvnKfW3QlckepUv+R9O00dEWyhe/MWZYNP0AyHzaXDUTbCxLLBCwMJpoA==
   dependencies:
     "@goy/vuepress-plugin-svg-icons" "^3.1.1"
+
+vuepress-plugin-tabs@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-tabs/-/vuepress-plugin-tabs-0.3.0.tgz#e95fb98d3736af450a9baaf1a09b8677983ca8d8"
+  integrity sha512-jooDlcMdBqhXgIaF1awFSaOTM56mleP6bbCiGxyQxTZexfvCfDvZhNLGpyXqMQA50ZmNGmvLrK82YYb63k1jfA==
 
 vuepress-theme-modern-blog@^2.12.1:
   version "2.12.1"

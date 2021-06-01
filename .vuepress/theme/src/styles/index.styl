@@ -1,7 +1,5 @@
 @require './font.styl';
 @require './config.styl';
-@require './code.styl';
-@require './custom-blocks.styl';
 @require './arrow.styl';
 @require './wrapper.styl';
 @require './toc.styl';
@@ -135,24 +133,8 @@ kbd {
   padding: 0 0.15em;
 }
 
-blockquote {
-  font-size: 0.9rem;
-  color: darken($accentColor, 50%);
-  border-left: 3px solid $accentColor;
-  margin: 0.5rem 0;
-  padding: 0.25rem 0 0.25rem 1rem;
-
-  & > p {
-    margin: 0;
-  }
-}
-
 ul, ol {
   padding-left: 1.2em;
-}
-
-strong {
-  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -166,10 +148,6 @@ h1, h2, h3, h4, h5, h6 {
 
     &:first-child {
       margin-bottom: 1rem;
-
-      + p, + pre, + .custom-block {
-        margin-top: 2rem;
-      }
     }
   }
 

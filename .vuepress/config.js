@@ -99,5 +99,32 @@ module.exports = {
                 hostname: 'https://majoramari.com',
             },
         ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'tip',
+                defaultTitle: {
+                    '/': 'نصيحة',
+                },
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'warning',
+                defaultTitle: {
+                    '/': 'تنبيه',
+                },
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'danger',
+                defaultTitle: {
+                    '/': 'تحذير',
+                },
+            },
+        ]
     ],
 }

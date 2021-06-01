@@ -50,19 +50,10 @@
           <!-- eslint-disable-next-line -->
           <span v-html="$themeConfig.posts.append" />
         </el-card>
-
-        <el-card v-if="featured_posts.length" class="mb-4">
-          <div slot="header" class="clearfix">
-            <h5 class="m-0">
-              {{ $t("read_more") }}
-            </h5>
-          </div>
-          <FeaturedPosts class="my-4" :posts="featured_posts" />
-        </el-card>
         <ClientOnly v-if="$themeConfig.disqus">
           <el-card class="comments-area my-4">
             <div slot="header" class="clearfix">
-              <h5 class="m-0">
+              <h5 herf="#support" class="m-0">
                 {{ $t("leave_comment") }}
               </h5>
             </div>
@@ -88,6 +79,14 @@
             </div>
           </el-card>
         </ClientOnly>
+        <el-card v-if="featured_posts.length" class="mb-4">
+          <div slot="header" class="clearfix">
+            <h5 class="m-0">
+              {{ $t("read_more") }}
+            </h5>
+          </div>
+          <FeaturedPosts class="my-4" :posts="featured_posts" />
+        </el-card>
         <el-card>
           <div slot="header" class="clearfix">
             <h5 class="m-0">Tags</h5>
@@ -135,7 +134,7 @@ export default {
 }
 
 .vuepress-blog-theme-content {
-  font-size: 16px;
+  font-size: 19px;
   letter-spacing: 0px;
   color: #2c3e50;
   position: relative;
