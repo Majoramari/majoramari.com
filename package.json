@@ -24,6 +24,9 @@
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-smooth-scroll": "^0.0.4",
     "vuepress-plugin-social-share": "^0.0.6",
-    "vuepress-theme-modern-blog": "^2.12.0"
+    "vuepress-theme-modern-blog": "^2.12.1"
+  },
+  "dependencies": {
+    "postscribe": "^2.0.8"
   }
 }

@@ -1,48 +1,31 @@
 module.exports = {
     title: 'MajorAmari',
-    description: 'This is a blog example built by VuePress',
-    theme: require.resolve('vuepress-theme-modern-blog'), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
+
+    description: 'عندما تعشق الشوكولاته',
+    theme: require.resolve('./theme'), // replace it with ==> theme: 'modern-blog' to use this example project as a boilerplate.
     summaryLength: 700,
     themeConfig: {
         translations: {
-            read_more: 'Keep reading!',
-            read_this_post: 'Read this post now!',
+            read_more: 'اقرأ المزيد!',
+            read_this_post: 'اقرأ الان!',
+            search_placeholder: 'بحث',
+            search_entire_site: 'بحث في كامل الموقع بـ ${query}',
+            no_results: 'لا نتائج، جرب كلمات اخرى.',
+            latest_posts: '📑 آخر المقالات',
+            leave_comment: '❤ Support me',
         },
-        socialShare: false,
-        // cookies: {
-        //   theme: 'dark-lime',
-        //   buttonText: 'Got it!',
-        //   message: 'We use cookies!',
-        // },
+        // socialShare: false,
+        cookies: {
+            theme: 'dark-lime',
+            buttonText: 'اتفق',
+            message: 'الملوخية احسن من الباميا',
+        },
+        script: [
+            { src: 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js' }
+        ],
 
         summary: true,
 
-        // Example of advanced summary usage
-        /*
-        summary: {
-          // Use the first two paragraphs
-          paragraphs: 2,
-    
-          // Let's assume that a paragraph is anything that ends with "..." and a new line
-          paragraphsSeparator: "...\n",
-    
-          // And let's assume that we want to join back the extracted paragraphs with an empty space.
-          paragraphsJoiner: "",
-    
-          // If we didn't want to use the "paragraphs" functionality, and instead we
-          // want to extract a summary up until the first occurrence of a text, we'd
-          // use the "stopSymbol" functionality. Let's assume that we want to get
-          // all the text up until the first ";" followed by a new line appears in
-          // our text.
-          stopSymbol: ";\n",
-    
-          // How about we add an emoji at the beginning of our summary?
-          prepend: "🔈",
-    
-          // ... what about at the end?
-          append: "📖",
-        },
-        */
         nav: [
             {
                 text: 'Home',
@@ -53,48 +36,44 @@ module.exports = {
                 text: 'Projects',
                 link: '/projects/',
                 icon: 'el-icon-folder',
-            },
+            }
         ],
         // Let's say that we want to add a small message at the beginning or at the
         // end of each post.This is the place!
-        posts: {
-            prepend: "Hi, I hope you'll <i>enjoy</i> this post!",
-            append: "Hi, I hope you've <b>enjoyed</b> this post!",
-        },
+        // posts: {
+        //     prepend: "Hi, I hope you'll <i>enjoy</i> this post!",
+        //     append: "Hi, I hope you've <b>enjoyed</b> this post!",
+        // },
         disqus: 'disquswebsiteshortname', // if you want to incorporate Disqus for comments replace this value else just get rid of it
         about: {
-            fullName: 'MajorAmari',
-            bio: 'I am a passionate Software Engineer, I love Vue.js ♥ ...',
-            image: 'https://cdn.discordapp.com/attachments/753789400403411014/849150603124539412/avatar.png',
+            fullName: 'مايجر عماري',
+            bio: 'احب اتعلم اشياء جديدة :) اعرف ابرمج واصمم وامنتج واحب العب.',
+            image: 'https://cdn.discordapp.com/attachments/720764330701881404/849262886248251452/avatar.png',
         },
         footer: {
             contact: [
                 {
-                    type: 'github',
-                    link: 'https://github.com/z3by',
-                },
-                {
                     type: 'instagram',
-                    link: 'https://instagram.com',
+                    link: 'https://instagram.com/major.amari',
                 },
                 {
-                    type: 'linkedin',
-                    link: 'https://linkedin.com',
+                    type: 'discord',
+                    link: 'https://onety.net/discord',
                 },
                 {
-                    type: 'twitter',
-                    link: 'https://twitter.com',
+                    type: 'ko-fi',
+                    link: 'https://ko-fi.com/majoramari',
                 },
+                {
+                    type: 'buymeacoffee',
+                    link: 'https://www.buymeacoffee.com/majoramari',
+                }
             ],
             copyright: [
                 {
                     text: 'Privacy Policy',
-                    link: 'https://policies.google.com/privacy?hl=en-US',
-                },
-                {
-                    text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-                    link: '',
-                },
+                    link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+                }
             ],
         },
     },
@@ -105,7 +84,6 @@ module.exports = {
         'reading-progress',
         '@vuepress/medium-zoom',
         '@vuepress/nprogress',
-        'social-share',
         '@vuepress/google-analytics',
         '@vuepress/back-to-top',
         [
