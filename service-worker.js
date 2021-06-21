@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "5d7a957e5ee83c7d553065d7ebf9db2a"
+    "revision": "3c9041259e3a439f3881224f99cb0a93"
   },
   {
     "url": "assets/css/0.styles.57818cda.css",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "revision": "c22274bd421693a084e354c0d58ccd63"
   },
   {
-    "url": "assets/js/14.f1cc15b7.js",
-    "revision": "80d4084818ce445b60d09d6b1e877c83"
+    "url": "assets/js/14.c3fe61c4.js",
+    "revision": "de67f9ed0c8de5dd9c0b37ec17997cf6"
   },
   {
-    "url": "assets/js/15.bb343657.js",
-    "revision": "a2b6f724b9a789807346fabcb1404a03"
+    "url": "assets/js/15.78f96bd9.js",
+    "revision": "e55cfe7d458dcba8aaa7ee4a81d44cd9"
   },
   {
     "url": "assets/js/16.ac2b185e.js",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "revision": "a7f0558698cf3c328df1dd7e4a4d1b31"
   },
   {
-    "url": "assets/js/app.05a7ffda.js",
-    "revision": "ab848d05ca27120d44419ef5076d79fd"
+    "url": "assets/js/app.4c8cde2f.js",
+    "revision": "99e7d1c5dc06eea058417c3d8212354e"
   },
   {
     "url": "assets/js/vuejs-paginate.3d07f62b.js",
@@ -101,35 +101,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8233a255f146c9b1d607acd4986ba0ce"
-  },
-  {
-    "url": "post/_17-update/index.html",
-    "revision": "eadd1fc75460ded031dd8256e387730f"
+    "revision": "b62fa8913c86435e66e9dfe66b901a05"
   },
   {
     "url": "post/how-to-join-mc/index.html",
-    "revision": "9c64e4ca3ce84166bdb963770a31e702"
+    "revision": "cd09e77840ecafedc1739c07c834ef85"
+  },
+  {
+    "url": "post/update-17/index.html",
+    "revision": "66e360a87aea6c35fa93b6c4b8efabcc"
   },
   {
     "url": "projects/index.html",
-    "revision": "4ea189e10e6bd1ad67d04b4ff23c5f7e"
+    "revision": "ff50b22ea15cd559097c3593e6675545"
   },
   {
     "url": "projects/serqet-bot/index.html",
-    "revision": "296f4dcea347b244a44c89827e70a204"
+    "revision": "f3fd86adf657e3c175b15e4ac469c75d"
   },
   {
     "url": "tag/index.html",
-    "revision": "3fbae678197d17edeb366a93e12f3f32"
+    "revision": "f3701f755aeaa2fe9cd3da8f78767b25"
   },
   {
     "url": "tag/ديسكورد/index.html",
-    "revision": "84d423a3d2ca1a6e1272f7d76f6e639c"
+    "revision": "a48adb324e80b0bfd7ebf06033ec2ef2"
   },
   {
     "url": "tag/ماين كرافت/index.html",
-    "revision": "8bef27f0d909cc59ed4b62c8703d9c6d"
+    "revision": "b2299f3973b10d7375c86f2a6b6f8803"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
