@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d657500772d4191c8efc006a49959bbd"
+    "revision": "5d7a957e5ee83c7d553065d7ebf9db2a"
   },
   {
     "url": "assets/css/0.styles.57818cda.css",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "revision": "c22274bd421693a084e354c0d58ccd63"
   },
   {
-    "url": "assets/js/14.befe71b5.js",
+    "url": "assets/js/14.f1cc15b7.js",
     "revision": "80d4084818ce445b60d09d6b1e877c83"
   },
   {
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "revision": "a7f0558698cf3c328df1dd7e4a4d1b31"
   },
   {
-    "url": "assets/js/app.0f2686cc.js",
-    "revision": "37e1eb1601ee5d8df46e56f57e53a7a3"
+    "url": "assets/js/app.05a7ffda.js",
+    "revision": "ab848d05ca27120d44419ef5076d79fd"
   },
   {
     "url": "assets/js/vuejs-paginate.3d07f62b.js",
@@ -101,35 +101,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "d0031871659bfe959b0aec3efb8875ad"
+    "revision": "8233a255f146c9b1d607acd4986ba0ce"
   },
   {
-    "url": "post/_1-17-update/index.html",
-    "revision": "47b39cf1ca62be3ed0879a35fbbe8a1f"
+    "url": "post/_17-update/index.html",
+    "revision": "eadd1fc75460ded031dd8256e387730f"
   },
   {
     "url": "post/how-to-join-mc/index.html",
-    "revision": "5e72abf42e8ce27c0df320c0f7e1fd35"
+    "revision": "9c64e4ca3ce84166bdb963770a31e702"
   },
   {
     "url": "projects/index.html",
-    "revision": "e70c171c0ba46204eb9d3d82bb64f48c"
+    "revision": "4ea189e10e6bd1ad67d04b4ff23c5f7e"
   },
   {
     "url": "projects/serqet-bot/index.html",
-    "revision": "c8584eeecbabdd73785bb39f0dcea2fa"
+    "revision": "296f4dcea347b244a44c89827e70a204"
   },
   {
     "url": "tag/index.html",
-    "revision": "c75d64e64fb198a839a191947a9f58b4"
+    "revision": "3fbae678197d17edeb366a93e12f3f32"
   },
   {
     "url": "tag/ديسكورد/index.html",
-    "revision": "ad53ebddfadfa5761e037832633f11bb"
+    "revision": "84d423a3d2ca1a6e1272f7d76f6e639c"
   },
   {
     "url": "tag/ماين كرافت/index.html",
-    "revision": "d044a37435dc9c228d2b7dfaa56b554b"
+    "revision": "8bef27f0d909cc59ed4b62c8703d9c6d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
