@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev",
-    "build": "vuepress build ."
+    "build": "./build.bat"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.4.0",

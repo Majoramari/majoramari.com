@@ -21,7 +21,6 @@ meta:
   - name: language
     content: English
 featured: true
-readingTime: { text: "Not so long!", minutes: 3 }
 ---
 
 ## كيف احمل ماين كرافت؟
@@ -49,7 +48,7 @@ readingTime: { text: "Not so long!", minutes: 3 }
 :::
 
 ## كيف ادخل السيرفر؟
-افتح ماين كرافت التحديث **1.16.5** ، لما تشتغل معك اللعبة اختار الخيار **Multiplayer** بعدين اختار **Add Server** بالـ**Server Name** اكتب اي شئ، بالـ**Server Address** اكتب الـIP الخاص بالسيرفر الي هو **`mc.onety.net`** ومن ثم اضغط **Done**.
+افتح ماين كرافت التحديث **1.17** ، لما تشتغل معك اللعبة اختار الخيار **Multiplayer** بعدين اختار **Add Server** بالـ**Server Name** اكتب اي شئ، بالـ**Server Address** اكتب الـIP الخاص بالسيرفر الي هو **`mc.onety.net`** ومن ثم اضغط **Done**.
 <br>
 <br>
 تم، تقدر تدخل السيرفر بانك تضغط عليه مرتين.
