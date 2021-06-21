@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c7d75411513d2b4e064c86b33c205ad9"
+    "revision": "d657500772d4191c8efc006a49959bbd"
   },
   {
     "url": "assets/css/0.styles.57818cda.css",
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "revision": "c22274bd421693a084e354c0d58ccd63"
   },
   {
-    "url": "assets/js/14.f4d3bb52.js",
-    "revision": "4af75a53cf8fb8213d823399c12fcee3"
+    "url": "assets/js/14.befe71b5.js",
+    "revision": "80d4084818ce445b60d09d6b1e877c83"
   },
   {
-    "url": "assets/js/15.59262958.js",
-    "revision": "08c635c92546f0b8b2ee8c050fb30dd3"
+    "url": "assets/js/15.bb343657.js",
+    "revision": "a2b6f724b9a789807346fabcb1404a03"
   },
   {
-    "url": "assets/js/16.797ad110.js",
-    "revision": "7e2757b61c1f7332413f8eaeb54494b3"
+    "url": "assets/js/16.ac2b185e.js",
+    "revision": "c3feca393289262fc749acd20c9ae222"
   },
   {
     "url": "assets/js/3.f48aba4e.js",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "revision": "a7f0558698cf3c328df1dd7e4a4d1b31"
   },
   {
-    "url": "assets/js/app.0d05e634.js",
-    "revision": "be6d6391030baabc4bf19bcd7f56f839"
+    "url": "assets/js/app.0f2686cc.js",
+    "revision": "37e1eb1601ee5d8df46e56f57e53a7a3"
   },
   {
     "url": "assets/js/vuejs-paginate.3d07f62b.js",
@@ -101,35 +101,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c0b3340d113772f97d565b3855fd6378"
+    "revision": "d0031871659bfe959b0aec3efb8875ad"
   },
   {
     "url": "post/_1-17-update/index.html",
-    "revision": "cf3c46f4eae03d42ffee8d23e01a93cf"
+    "revision": "47b39cf1ca62be3ed0879a35fbbe8a1f"
   },
   {
     "url": "post/how-to-join-mc/index.html",
-    "revision": "33115a2411faab19c6bf72b7d5f9d996"
+    "revision": "5e72abf42e8ce27c0df320c0f7e1fd35"
   },
   {
     "url": "projects/index.html",
-    "revision": "30f549ba97ebd8305545c3b1161addcc"
+    "revision": "e70c171c0ba46204eb9d3d82bb64f48c"
   },
   {
     "url": "projects/serqet-bot/index.html",
-    "revision": "eeca6414f05926b42b1bcbd973a36bcf"
+    "revision": "c8584eeecbabdd73785bb39f0dcea2fa"
   },
   {
     "url": "tag/index.html",
-    "revision": "2ab2314d9ebf1c4c1b9bb416895a61d2"
+    "revision": "c75d64e64fb198a839a191947a9f58b4"
   },
   {
     "url": "tag/ديسكورد/index.html",
-    "revision": "0292fe32f4cbf1561c5f7fda0a7038f8"
+    "revision": "ad53ebddfadfa5761e037832633f11bb"
   },
   {
     "url": "tag/ماين كرافت/index.html",
-    "revision": "9826f1252cc6e4fda22f6dc7ff3b155e"
+    "revision": "d044a37435dc9c228d2b7dfaa56b554b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
